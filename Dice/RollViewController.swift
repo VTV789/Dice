@@ -31,12 +31,9 @@ class RollViewController: UIViewController {
         return Int(randomValue)
     }
 
-    func rollTheDice(){
-        
-        
+    @IBAction func rollTheDice(){
+        performSegueWithIdentifier("rollDice", sender: self)
     }
-    
-    
     
     
 }
