@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D673C351A0BF21F00F01D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D673C341A0BF21F00F01D25 /* AppDelegate.swift */; };
-		4D673C371A0BF21F00F01D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D673C361A0BF21F00F01D25 /* ViewController.swift */; };
+		4D673C371A0BF21F00F01D25 /* RollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D673C361A0BF21F00F01D25 /* RollViewController.swift */; };
 		4D673C3A1A0BF21F00F01D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D673C381A0BF21F00F01D25 /* Main.storyboard */; };
 		4D673C3C1A0BF21F00F01D25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D673C3B1A0BF21F00F01D25 /* Images.xcassets */; };
 		4D673C3F1A0BF21F00F01D25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D673C3D1A0BF21F00F01D25 /* LaunchScreen.xib */; };
@@ -30,7 +30,7 @@
 		4D673C2F1A0BF21F00F01D25 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D673C331A0BF21F00F01D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D673C341A0BF21F00F01D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D673C361A0BF21F00F01D25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D673C361A0BF21F00F01D25 /* RollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollViewController.swift; sourceTree = "<group>"; };
 		4D673C391A0BF21F00F01D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D673C3B1A0BF21F00F01D25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D673C3E1A0BF21F00F01D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				4D673C541A0BF26900F01D25 /* DiceViewController.swift */,
-				4D673C361A0BF21F00F01D25 /* ViewController.swift */,
+				4D673C361A0BF21F00F01D25 /* RollViewController.swift */,
 				4D673C341A0BF21F00F01D25 /* AppDelegate.swift */,
 				4D673C381A0BF21F00F01D25 /* Main.storyboard */,
 				4D673C3B1A0BF21F00F01D25 /* Images.xcassets */,
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D673C371A0BF21F00F01D25 /* ViewController.swift in Sources */,
+				4D673C371A0BF21F00F01D25 /* RollViewController.swift in Sources */,
 				4D673C551A0BF26900F01D25 /* DiceViewController.swift in Sources */,
 				4D673C351A0BF21F00F01D25 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +409,7 @@
 				4D673C501A0BF22000F01D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D673C511A0BF22000F01D25 /* Build configuration list for PBXNativeTarget "DiceTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				4D673C531A0BF22000F01D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
