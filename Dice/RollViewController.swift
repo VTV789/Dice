@@ -9,16 +9,6 @@
 import UIKit
 
 class RollViewController: UIViewController {
-
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        
-//        if segue.identifier == "RollDice" {
-//            let controller = segue.destinationViewController as DiceViewController
-//            
-//            controller.firstValue = self.randomDiceValue()
-//            controller.secondValue = self.randomDiceValue()
-//        }
-//    }
     
     /**
     * Randomly generates a Int from 1 to 6
